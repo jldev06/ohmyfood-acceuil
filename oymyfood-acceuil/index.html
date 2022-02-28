@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shrikhand&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <title>ohmyfood</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <H2> ohmyfood</H2>
+    </header>
+    <main>
+        <section class="section1">
+
+            <form method="post">
+                <p class="search-bloc">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="text" name="search" id="search" value="Paris, Belleville" size="17" />
+
+                </p>
+            </form>
+            <div class="info">
+                <h3 class="section1-title">Réservez le menu qui vous convient</h3>
+                <P class="section1-subtitle">Découvrez des restaurants d'exceptions, séléctionnés par nos soins.</P>
+            </div>
+            <div class="explorer">
+                <button class="button">Explorez nos restaurants</button>
+            </div>
+        </section>
+
+        <section class="section2">
+            <h3 class="section2-title">Fonctionnement</h3>
+            <div class="functions-bloc">
+                <div class="function">
+                    <span class="function-number">1</span>
+                    <i class="fas fa-mobile-alt"></i>
+                    <span class="function-texte">Choisissez un restaurant</span>
+                </div>
+
+                <div class="function">
+                    <span class="function-number">2</span>
+                    <i class="fas fa-list"></i>
+                    <span class="function-texte">Composez votre menu</span>
+                </div>
+
+                <div class="function-3">
+                    <span class="function-number">3</span>
+                    <i class="fas fa-store"></i>
+                    <span class="function-texte">Dégustez au restaurant</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section3">
+            <h2 class="section3-title">Restaurants</h2>
+            <div class="cards-container">
+                <a href="#" class="card-link">
+                    <div class="card">
+                        <div class="card-image-container">
+                            <img class="restaurant-image" src="images/image1.jpg" alt="photo restaurant La palette du goût">
+                            <div class="new-restaurant-text">Nouveau</div>
+                        </div>
+                        <div class="card-text-container">
+                            <div class="card-name-location">
+                                <h4 class="card-name">La palette du goût</h4>
+                                <p class="card-location">Ménilmontant</p>
+                            </div>
+                            <span class="card-heart"><i class="far fa-heart"></i> </span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="card-link">
+                    <div class="card">
+                        <div class="card-image-container">
+                            <img class="restaurant-image" src="images/image2.jpg" alt="photo restaurant la Note enchntée">
+                            <div class="new-restaurant-text">Nouveau</div>
+                        </div>
+                        <div class="card-text-container">
+                            <div class="card-name-location">
+                                <h4 class="card-name">La note enchantée</h4>
+                                <p class="card-location">Charonne</p>
+                            </div>
+                            <span class="card-heart"><i class="far fa-heart"></i> </span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="card-link">
+                    <div class="card">
+                        <div class="card-image-container">
+                            <img class="restaurant-image" src="images/image3.jpg" alt="photo restaurant A la française">
+                        </div>
+                        <div class="card-text-container">
+                            <div class="card-name-location">
+                                <h4 class="card-name">A la française</h4>
+                                <p class="card-location">Cité Rouge</p>
+                            </div>
+                            <span class="card-heart"><i class="far fa-heart"></i> </span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="card-link">
+                    <div class="card">
+                        <div class="card-image-container">
+                            <img class="restaurant-image" src="images/image4.jpg" alt="photo restaurant Le délice des sens">
+                        </div>
+                        <div class="card-text-container">
+                            <div class="card-name-location">
+                                <h4 class="card-name">Le délice des sens</h4>
+                                <p class="card-location">Folie-Méricourt</p>
+                            </div>
+                            <span class="card-heart"><i class="far fa-heart"></i> </span>
+                        </div>
+                    </div>
+                </a>
+
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <h3 class="footer-title">ohmyfood</h3>
+        <ul class="footer-list">
+            <li>
+                <span><i class="fas fa-utensils"></i></span>
+                <p class="footer-text">Proposer un restaurant</p>
+            </li>
+            <li>
+                <span><i class="fas fa-handshake"></i></span>
+                <p class="footer-text">Devenir partenaire</p>
+            </li>
+            <li>Mentions légales</li>
+            <li>
+                <a href="mailto:jeanlouisdacosta27@gmail.com" class="footer-link">contact</a></li>
+        </ul>
+
+
+    </footer>
+</body>
+
+</html>
